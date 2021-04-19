@@ -1,0 +1,104 @@
+body{
+  margin:0;
+  padding:0;
+  font-family: sans-serif;
+  background-color: #757268;
+}
+  
+.main{
+  background-image: linear-gradient(to bottom right,green,blue);
+   border-radius: 0 0 50% 50% / 0 0 50% 50%;
+   transform:scaleX(1);
+}
+.main-head{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.about{
+  color:#706e66;
+  font-family: sans-serif;
+  font-size: 2rem;
+}
+.card-btn{
+  background-image: linear-gradient(to bottom right,green,blue);
+  padding:1rem 1.5rem 1rem 1.5rem;
+  opacity:0.9;
+  color:white;
+  border-radius: 0.5rem;
+  margin-bottom: 0px;
+  text-align: center;
+  justify-content: center;
+  cursor:pointer;
+  outline: none;
+}
+.card-btn a{
+  text-decoration: none;
+  color:white;
+}
+.cards{
+  border-radius: 0.5rem;
+  border:1px solid #d4d3cf;
+  text-align: center;
+  width:20rem;
+  height:24rem;
+  margin:4rem 0 4rem 0 ;
+  box-shadow: 5px 6px 5px #b5b3ac;
+  background-color:#faf7f0;
+}
+.cards:hover{
+  box-shadow: 7px 8px 7px #b5b3ac;
+  transition: all 0.3s;
+  border:0.5px solid #7a776d;
+}
+.card-container{
+  display:flex;
+  justify-content: space-around;
+}
+
+.down{
+  background-color: #2b2e2e;
+  color:white;
+  display: flex;
+  justify-content: space-around;
+}
+.topnav a{
+  text-decoration: none;
+  padding:0.5rem;
+  margin:20px 20px 20px 20px;
+  color:white;
+  padding: 2rem 2rem 2rem 2rem;
+  font-family: sans-serif;
+  font-size: 1.5rem;
+}
+.topnav a:hover{
+  background-color: white;
+  opacity:0.2;
+  color:black;
+  transition: all 0.3s;
+}
+#nav-bar{
+  background-image: linear-gradient(to bottom right,green,blue);
+}
+
+.main-icon img{
+  
+  height:7rem;
+  width:7rem;
+  margin-left:1rem;
+  border-radius:50%;
+}
+.bank-name{
+  margin-top:8rem;
+  font-size:5rem;
+  color:white;
+  opacity: 0.3rem;
+}
+.brief{
+  margin-top:2rem;
+  margin-left: 2rem;
+  font-size:2rem;
+  color:white;
+  opacity: 0.3rem;
+}
+
